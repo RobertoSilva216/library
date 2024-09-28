@@ -86,6 +86,7 @@ Installation
 Usage
 -----
 Try the endpoints of books and authors
+
 * /api/books
 * /api/authors
 
