@@ -7,6 +7,7 @@ Features
 --------
 
 Books
+
 * GET /books - Retrieve a list of all books.
 * GET /books/:id - Retrieve a specific book by ID.
 * POST /books - Create a new book (protected).
@@ -14,6 +15,7 @@ Books
 * DELETE /books/:id - Delete a book (protected).
 
 Authors
+
 * GET /authors - Retrieve a list of all authors.
 * GET /authors/:id - Retrieve a specific author by ID.
 * POST /authors - Create a new author (protected).
@@ -21,11 +23,13 @@ Authors
 * DELETE /authors/:id - Delete an author (protected).
 
 Authentication
+
 * JWT for user authentication.
 * Registration (POST /register) and login (POST /login) endpoints.
 
 
 Search Functionality
+
 * Query string params to filter books and authors
 
 Prerequisites
