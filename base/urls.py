@@ -22,5 +22,5 @@ urlpatterns = [
     path('health', health_view),
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
-    path('/', include('gui.urls')),
+    path('', include('gui.urls')),
 ]
