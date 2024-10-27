@@ -9,4 +9,5 @@ __all__ = [
     'FavoriteSerializer',
     'FavoriteSerializerOut',
     'UserSerializer',
+    'UserSerializerOut',
 ]

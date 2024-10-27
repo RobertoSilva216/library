@@ -13,12 +13,12 @@ class RegisterView(generics.CreateAPIView):
     def post(self, request, *args, **kwargs):
         try:
             user = User.objects.create_user(
-                request.data['username'],
-                request.data['email'],
-                request.data['password'],
+                request.data.get('username'),
+                request.data.get('email'),
+                request.data.get('password'),
                 **{
-                    'first_name': request.data['first_name'],
-                    'last_name': request.data['last_name'],
+                    'first_name': request.data.get('first_name'),
+                    'last_name': request.data.get('last_name'),
                 }
             )
             if user:

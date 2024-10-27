@@ -1,7 +1,7 @@
 Library system
 ============
 
-System for book management and favorites books
+System for book management, favorites books and recommendations
 
 Features
 --------

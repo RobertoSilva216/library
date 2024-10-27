@@ -4,8 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb1396d-a051-4f02-b8e9-1e56b84ef756" name="Changes" comment="gitignore config">
+    <list default="true" id="1fb1396d-a051-4f02-b8e9-1e56b84ef756" name="Changes" comment="gitignore change">
+      <change afterPath="$PROJECT_DIR$/api/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tests/test_models_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/tests/test_models_unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/templates/books/book_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.rst" beforeDir="false" afterPath="$PROJECT_DIR$/readme.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -28,30 +54,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/projetos/gringa/library/api/views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projetos/rpa/first_rpa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projetos\gringa\library\api\tests" />
       <recent name="D:\projetos\gringa\library\api\views" />
       <recent name="D:\projetos\gringa\library\api\serializers" />
       <recent name="D:\projetos\gringa\library\api\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projetos\gringa\library" />
+      <recent name="D:\projetos\gringa\library\api" />
     </key>
   </component>
   <component name="RunManager" selected="Django Server.library">
@@ -120,7 +154,19 @@
       <updated>1727483743605</updated>
       <workItem from="1727483745802" duration="13111000" />
       <workItem from="1727526155930" duration="4200000" />
-      <workItem from="1727543551864" duration="385000" />
+      <workItem from="1727543551864" duration="7823000" />
+      <workItem from="1727657466634" duration="1993000" />
+      <workItem from="1727833716561" duration="629000" />
+      <workItem from="1727959409190" duration="153000" />
+      <workItem from="1729001393999" duration="1239000" />
+      <workItem from="1729047955090" duration="1773000" />
+      <workItem from="1729112495391" duration="7953000" />
+      <workItem from="1729171179910" duration="3341000" />
+      <workItem from="1729254932879" duration="763000" />
+      <workItem from="1729523772422" duration="598000" />
+      <workItem from="1729559442884" duration="257000" />
+      <workItem from="1729632204081" duration="40000" />
+      <workItem from="1730069809066" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore config">
       <option name="closed" value="true" />
@@ -130,7 +176,47 @@
       <option name="project" value="LOCAL" />
       <updated>1727543871750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore config">
+      <option name="closed" value="true" />
+      <created>1727543948784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727543948784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readme and requirements file generation">
+      <option name="closed" value="true" />
+      <created>1727545087667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545087667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="readme change">
+      <option name="closed" value="true" />
+      <created>1727545254419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545254419</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme change">
+      <option name="closed" value="true" />
+      <created>1727545316978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545316978</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore change">
+      <option name="closed" value="true" />
+      <created>1727545952021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727545952021</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +224,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore config" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore config" />
+    <MESSAGE value="readme and requirements file generation" />
+    <MESSAGE value="readme change" />
+    <MESSAGE value="gitignore change" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore change" />
   </component>
 </project>

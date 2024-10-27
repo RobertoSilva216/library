@@ -2,3 +2,10 @@
 /.idea
 dev
 db.sqlite3
+
+.env
+*/.env
+*/*/.env
+*/migrations/*.py
+*/migrations/*.pyc
+*.sqlite3
