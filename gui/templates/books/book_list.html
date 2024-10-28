@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Livros</title>
+    <title>Lista de livros</title>
     <!-- Adicione o Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
@@ -16,6 +16,7 @@
                     <th>Título</th>
                     <th>Autor</th>
                     <th>Descrição</th>
+                    <th>Ano de publicação</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,6 +24,7 @@
                     <tr>
                         <td>{{ book.title }}</td>
                         <td>{{ book.author }}</td>
+                        <td>{{ book.year }}</td>
                         <td>{{ book.description }}</td>
                     </tr>
                 {% empty %}
